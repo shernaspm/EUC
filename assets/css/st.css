@@ -1,0 +1,20 @@
+
+.wprt-container:before,
+.wprt-container:after { clear: both; display: table; line-height: 0; content: ""; }
+
+.clearfix:after,
+.wprt-container:after { clear: both; }
+
+/* Layout
+-------------------------------------------------------------- */
+.wprt-container { width: 1170px;  margin: 0 auto;  }
+.gallery1 {
+	margin: 10px 0px;
+}
+.gallery1 img {
+	transition: 1s;
+	padding: 15px; width: 300px;
+}
+.gallery1 img:hover{
+	filter: grayscale(100%); transform: scale(1.1);
+}
